@@ -1,4 +1,4 @@
-# allow_draft_prs: false
+allow_draft_prs: true
 projects:
   - name: dev
     dir: dev
