@@ -31,8 +31,8 @@ jobs:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-east-1
-          digger-hostname: 'https://cloud.digger.dev'
-          digger-organisation: 'digger-playground'
+          digger-hostname: 'https://c1db-5-151-139-93.ngrok-free.app '
+          digger-organisation: 'digger'
           digger-token: ${{ secrets.DIGGER_TOKEN }}
         env:
           GITHUB_CONTEXT: ${{ toJson(github) }}
