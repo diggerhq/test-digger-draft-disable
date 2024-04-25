@@ -27,10 +27,8 @@ jobs:
       - name: digger run
         uses: diggerhq/digger@v0.4.10
         with:
-          setup-aws: true
-          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          aws-region: us-east-1
+          setup-aws: false
+          disable-locking: true
           digger-hostname: 'https://c1db-5-151-139-93.ngrok-free.app '
           digger-organisation: 'digger'
           digger-token: ${{ secrets.DIGGER_TOKEN }}
