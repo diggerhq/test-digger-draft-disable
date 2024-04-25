@@ -4,3 +4,4 @@ projects:
     dir: dev
   - name: prod
     dir: prod
+
