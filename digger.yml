@@ -1,0 +1,6 @@
+# allow_draft_prs: false
+projects:
+  - name: dev
+    dir: dev
+  - name: prod
+    dir: prod
