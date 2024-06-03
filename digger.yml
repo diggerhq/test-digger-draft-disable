@@ -1,4 +1,4 @@
-#allow_draft_prs: true
+allow_draft_prs: true
 unlock_on_draft_prs: true
 
 projects:
