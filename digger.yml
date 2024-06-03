@@ -1,4 +1,3 @@
-unlock_on_draft_prs: true
 
 projects:
   - name: dev
