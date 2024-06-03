@@ -1,4 +1,6 @@
 allow_draft_prs: true
+unlock_on_draft_prs: true
+
 projects:
   - name: dev
     dir: dev
