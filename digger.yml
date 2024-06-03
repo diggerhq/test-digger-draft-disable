@@ -1,5 +1,5 @@
 allow_draft_prs: true
-unlock_on_draft_prs: true
+unlock_on_draft_prs: false
 
 projects:
   - name: dev
